@@ -4,6 +4,9 @@
 var emails = [];
 var passwords = [];
 
+// get the number of attempts, user want to make which is max 5
+let credNo = +prompt("Please tell the number of emails and password (max 5):")
+
 let isFound = false
 
 // the logical code goes here
